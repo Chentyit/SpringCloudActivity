@@ -14,7 +14,7 @@ eureka:
 data:
   message: test1
 management:
-  endpoints: 
+  endpoints:
     web:
       exposure:
         include: refresh,health,info
