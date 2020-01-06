@@ -10,9 +10,9 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://admin:admin123@localhost:8100/eureka/
+      defaultZone: http://admin:admin123@localhost:8101/eureka/
 data:
-  message: test2
+  message: test1
 management:
   endpoints:
     web:
